@@ -12,7 +12,6 @@ app.use(cors());
 
 app.post('/create-qrcode', (req, res) => {
   const { url } = req.body;
-  console.log(url);
   
   try {
     if (url) {

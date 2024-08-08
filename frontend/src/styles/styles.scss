@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import '../utils/mixins';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px
+}
+
+@import '../blocks/header.scss';
+@import '../blocks/main.scss';
+@import '../blocks/qrcode-address-form.scss';
+@import '../blocks/footer.scss';
+

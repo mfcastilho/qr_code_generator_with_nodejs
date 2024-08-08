@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  background-color: #00BFFF;
+
+  &__content {
+    height: 60px;
+    color: #fff;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-inline: 20px;
+  }
+
+  &__logo {
+    font-size: 1.2rem;
+    font-family: "Gravitas One", serif;
+    text-transform: capitalize;
+  }
+}

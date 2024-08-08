@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    width: 100%;
+    min-height: calc(100vh - 120px);
+    padding-inline: 20px;
+  }
+
+  &__qrcode-address-form {
+    margin-top: 10rem;
+  }
+}
+

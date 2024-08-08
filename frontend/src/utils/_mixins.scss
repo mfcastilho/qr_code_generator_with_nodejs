@@ -1,0 +1,11 @@
+@mixin onTable() {
+  @media (min-with: 576px) {
+    @content;
+  }
+}
+
+@mixin onDesktop() {
+  @media (min-with: 1024px) {
+    @content;
+  }
+}
